@@ -1,0 +1,67 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.signup-container {
+    background-color: #f0f4f8;
+    width: 500px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-title h1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: #4299e1;
+    text-align: center;
+}
+
+.signup-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #4a5568;
+    border-radius: 10px;
+    background-color: #1a202c;
+    color: white;
+    font-size: 16px;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    min-height: 18px;
+}
+
+.signup-button {
+    background-color: #3182ce;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.signup-button:hover {
+    background-color: #2b6cb0;
+}
+.input-field:focus {
+    border-color: #3182ce;
+    box-shadow: 0 0 5px rgba(49, 130, 206, 0.5);
+}
+
+
